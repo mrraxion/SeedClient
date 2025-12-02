@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "seedclient",
+  "version": "1.0.0",
+  "name": "SeedClient",
+  "description": "Client-side Seed viewer and locator UI for Fabric 1.21.1 – press Insert to open menu, save seeds and locate structures.",
+  "authors": ["MrRaxion"],
+  "contact": {
+    "homepage": "https://github.com/MrRaxion/SeedClient",
+    "sources": "https://github.com/MrRaxion/SeedClient"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.seedclient.SeedClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "=1.21.1",
+    "fabric-api": "*"
+  }
+}
